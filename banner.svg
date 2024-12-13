@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A148C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B1FA2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#headerGradient)" rx="10" />
+  
+  <text x="50" y="80" fill="white" font-family="Arial" font-size="40" font-weight="bold">Weather App</text>
+  
+  <g transform="translate(600,100)">
+    <circle cx="0" cy="0" r="30" fill="#FDB813"/>
+    <path d="M-40,0 A40,40 0 0,1 0,-40" stroke="white" stroke-width="8" fill="none"/>
+    <path d="M20,-20 A40,40 0 0,1 40,20" stroke="white" stroke-width="8" fill="none"/>
+  </g>
+  
+  <text x="50" y="120" fill="#E0E0E0" font-family="Arial" font-size="20">Modern weather monitoring application</text>
+  
+  <g transform="translate(50,160)">
+    <rect width="90" height="24" rx="12" fill="white" opacity="0.2"/>
+    <text x="45" y="17" fill="white" font-family="Arial" font-size="14" text-anchor="middle">React</text>
+  </g>
+  
+  <g transform="translate(150,160)">
+    <rect width="120" height="24" rx="12" fill="white" opacity="0.2"/>
+    <text x="60" y="17" fill="white" font-family="Arial" font-size="14" text-anchor="middle">OpenWeather</text>
+  </g>
+</svg>

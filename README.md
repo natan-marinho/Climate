@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="./banner.svg" alt="Weather App Banner" width="800"/>
+</div>
 
-## Getting Started
+# Weather App
 
-First, run the development server:
+Uma aplicação moderna de monitoramento climático que fornece informações precisas e atualizadas sobre o clima em diferentes localidades. Desenvolvida com React e integrada com a API OpenWeather.
 
+## ⚡ Instalação Rápida
+
+1. **Clone o repositório**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [url-do-seu-repositorio]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Instale as dependências**
+```bash
+# Usando npm
+npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Ou usando yarn
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Execute a aplicação**
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-## Learn More
+4. **Configure a API do OpenWeather**
+- Crie uma conta em [OpenWeather](https://openweathermap.org/)
+- Obtenha sua chave de API
+- Crie um arquivo `.env` na raiz do projeto
+- Adicione sua chave:
+```env
+VITE_OPENWEATHER_API_KEY=sua_chave_aqui
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Acesse a aplicação**
+Abra seu navegador e acesse:
+```
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Busca de cidades
+- Visualização de temperatura atual
+- Previsão para os próximos 5 dias
+- Detalhes meteorológicos:
+  - Sensação térmica
+  - Umidade
+  - Velocidade do vento
+  - Pressão atmosférica
+  - Visibilidade
+  - Índice UV
 
-## Deploy on Vercel
+## 🛠️ Tecnologias
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React
+- Vite
+- TailwindCSS
+- OpenWeather API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<div align="center">
+  Desenvolvido com ❤️ por Natan O. Marinho
+</div>
