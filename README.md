@@ -52,8 +52,8 @@ Acesse: `http://localhost:3000`
 
 ## 🛠️ Tecnologias
 - React
-- Vite
-- TailwindCSS
+- Next.js
+- Styled-Components
 - OpenWeather API
 
 ## 📝 Licença
